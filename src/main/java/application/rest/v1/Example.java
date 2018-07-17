@@ -16,7 +16,7 @@ public class Example {
     public @ResponseBody ResponseEntity<String> example() {
         List<String> list = new ArrayList<>();
         //return a simple list of strings
-        list.add("Isabela, Nao nos ignore :( / Natana, vem ser feliz no .net :D");
+        list.add("Isabela, Nao nos ignore :( / Natana, vem ser feliz no .net ;D");
         return new ResponseEntity<String>(list.toString(), HttpStatus.OK);
     }
 
